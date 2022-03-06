@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(201, 231, 27);
+    text-align: center;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 121px;
+    color: blueviolet;
+}
+
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid 1px black;
+    margin-top: 5px;
+    margin-left: 380px
+  }
+  
+  .user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blueviolet;
+  }
+  
+  .block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    left: 50px;
+    bottom: 50px;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+  }
